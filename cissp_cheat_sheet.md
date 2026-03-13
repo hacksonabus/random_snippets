@@ -1,4 +1,4 @@
-# CISSP Cheat Sheet (20‑Page Condensed Study Guide)
+# CISSP Cheat Sheet
 
 ## How to Use This Cheat Sheet
 
@@ -6,127 +6,145 @@ This document condenses the core knowledge areas from the CISSP Common
 Body of Knowledge (CBK). It is intended for rapid review before practice
 exams or certification testing.
 
-Domains Covered: 1. Security and Risk Management 2. Asset Security 3.
-Security Architecture and Engineering 4. Communication and Network
-Security 5. Identity and Access Management 6. Security Assessment and
-Testing 7. Security Operations 8. Software Development Security
+Domains Covered: 
+<ol>
+  <li>Security and Risk Management</li>
+  <li>Asset Security</li>
+  <li>Security Architecture and Engineering</li>
+  <li>Communication and Network Security</li>
+  <li>Identity and Access Management</li>
+  <li>Security Assessment and Testing</li>
+  <li>Security Operations</li>
+  <li>Software Development Security</li>
+</ol>
 
 ------------------------------------------------------------------------
 
-# Domain 1 --- Security and Risk Management
+# Domain 1 - Security and Risk Management
 
 ## CIA Triad
-
--   **Confidentiality** -- Prevent unauthorized disclosure
--   **Integrity** -- Prevent unauthorized modification
--   **Availability** -- Ensure reliable access to systems and data
+<ul>
+  <li>Confidentiality - Prevent unauthorized disclosure</li>
+  <li>Integrity - Prevent unauthorized modification</li>
+  <li>Availability - Ensure reliable access to systems and data</li>
+</ul>
 
 ## Governance Components
-
--   Policies
--   Standards
--   Procedures
--   Guidelines
--   Baselines
+<ul>
+  <li>Policies</li>
+  <li>Standards</li>
+  <li>Procedures</li>
+  <li>Guidelines</li>
+  <li>Baselines</li>
+</ul>
 
 ## Risk Terminology
 
-  Term            Definition
-  --------------- --------------------------------
-  Asset           Something of value
-  Threat          Potential cause of harm
-  Vulnerability   Weakness that can be exploited
-  Risk            Likelihood × Impact
+| Term | Definition |
+|-----|-----|
+| Asset | Something of value |
+| Threat | Potential cause of harm |
+| Vulnerability | Weakness that can be exploited |
+| Risk | Likelihood × Impact |
 
 ### Risk Formula
 
 Risk = Threat × Vulnerability × Impact
 
 ## Risk Treatment Options
-
--   Avoid
--   Transfer
--   Mitigate
--   Accept
+<ul>
+  <li>Avoid</li>
+  <li>Transfer</li>
+  <li>Mitigate</li>
+  <li>Accept</li>
+</ul>
 
 ## Security Frameworks
-
--   NIST Cybersecurity Framework
--   ISO 27001
--   COBIT
--   SABSA
+<ul>
+  <li>NIST Cybersecurity Framework</li>
+  <li>ISO 27001</li>
+  <li>COBIT</li>
+  <li>SABSA</li>
+</ul>
 
 ## Compliance and Legal
-
--   Due Care
--   Due Diligence
--   Privacy Laws
--   Intellectual Property
+<ul>
+  <li>Due Care</li>
+  <li>Due Diligence</li>
+  <li>Privacy Laws</li>
+  <li>Intellectual Property</li>
+</ul>
 
 ------------------------------------------------------------------------
 
-# Domain 2 --- Asset Security
+# Domain 2 - Asset Security
 
 ## Data Classification
 
 Typical enterprise classification:
 
-Public → Internal → Confidential → Restricted
+Public -> Internal -> Confidential -> Restricted
 
 ## Data Lifecycle
-
-1.  Create
-2.  Store
-3.  Use
-4.  Share
-5.  Archive
-6.  Destroy
+<ol>
+  <li>Create</li>
+  <li>Store</li>
+  <li>Use</li>
+  <li>Share</li>
+  <li>Archive</li>
+  <li>Destroy</li>
+</ol>
 
 ## Data Protection Methods
-
--   Encryption
--   Tokenization
--   Masking
--   Data Loss Prevention (DLP)
+<ul>
+  <li>Encryption</li>
+  <li>Tokenization</li>
+  <li>Masking</li>
+  <li>Data Loss Prevention (DLP)</li>
+</ul>
 
 ## Media Sanitization
 
-  Method        Description
-  ------------- ----------------------
-  Clearing      Overwriting
-  Purging       Degaussing
-  Destruction   Physical destruction
+| Method | Description |
+|-----|-----|
+| Clearing | Overwriting |
+| Purging | Degaussing |
+| Destruction | Physical destruction |
 
 ## Data Ownership Roles
-
--   Data Owner
--   Data Custodian
--   Data Steward
--   Data User
+<ul>
+  <li>Data Owner</li>
+  <li>Data Custodian</li>
+  <li>Data Steward</li>
+  <li>Data User</li>
+</ul>
 
 ------------------------------------------------------------------------
 
-# Domain 3 --- Security Architecture & Engineering
+# Domain 3 - Security Architecture & Engineering
 
 ## Security Design Principles
-
--   Least Privilege
--   Fail Secure
--   Defense in Depth
--   Separation of Duties
--   Economy of Mechanism
+<ul>
+  <li>Least Privilege</li>
+  <li>Fail Secure</li>
+  <li>Defense in Depth</li>
+  <li>Separation of Duties</li>
+  <li>Economy of Mechanism</li>
+</ul>
 
 ## Security Models
 
 ### Bell-LaPadula (Confidentiality)
-
--   No Read Up
--   No Write Down
+<ul>
+  <li>No Read Up</li>
+  <li>No Write Down</li>
+</ul>
 
 ### Biba (Integrity)
-
--   No Read Down
--   No Write Up
+<ul>
+  <li>No Read Down</li>
+  <li>No Write Up</li>
+</ul>
 
 ### Clark-Wilson
 
@@ -143,19 +161,22 @@ Evaluation Assurance Levels (EAL1--EAL7)
 ## Cryptography Overview
 
 ### Symmetric Encryption
-
--   AES
--   ChaCha20
+<ul>
+  <li>AES</li>
+  <li>ChaCha20</li>
+</ul>
 
 ### Asymmetric Encryption
-
--   RSA
--   ECC
+<ul>
+  <li>RSA</li>
+  <li>ECC</li>
+</ul>
 
 ### Hash Functions
-
--   SHA‑256
--   SHA‑3
+<ul>
+  <li>SHA‑256</li>
+  <li>SHA‑3</li>
+</ul>
 
 ### Digital Signatures
 
@@ -178,18 +199,20 @@ Provide authenticity and non‑repudiation.
   1       Physical
 
 ## Network Devices
-
--   Router
--   Switch
--   Firewall
--   IDS/IPS
--   Proxy
+<ul>
+  <li>Router</li>
+  <li>Switch</li>
+  <li>Firewall</li>
+  <li>IDS/IPS</li>
+  <li>Proxy</li>
+</ul>
 
 ## Network Segmentation
-
--   VLANs
--   DMZ
--   Microsegmentation
+<ul>
+  <li>VLANs</li>
+  <li>DMZ</li>
+  <li>Microsegmentation</li>
+</ul>
 
 ## Secure Protocols
 
@@ -205,12 +228,13 @@ Provide authenticity and non‑repudiation.
 # Domain 5 --- Identity and Access Management
 
 ## Authentication Factors
-
--   Something you know
--   Something you have
--   Something you are
--   Somewhere you are
--   Something you do
+<ul>
+  <li>Something you know</li>
+  <li>Something you have</li>
+  <li>Something you are</li>
+  <li>Somewhere you are</li>
+  <li>Something you do</li>
+</ul>
 
 ## Access Control Models
 
@@ -229,12 +253,13 @@ Provide authenticity and non‑repudiation.
 4.  De‑provisioning
 
 ## IAM Technologies
-
--   SSO
--   Federation
--   Kerberos
--   LDAP
--   OAuth / OpenID Connect
+<ul>
+  <li>SSO</li>
+  <li>Federation</li>
+  <li>Kerberos</li>
+  <li>LDAP</li>
+  <li>OAuth / OpenID Connect</li>
+</ul>
 
 ------------------------------------------------------------------------
 
@@ -255,15 +280,17 @@ Simulated attack.
 Compliance verification.
 
 ### Red vs Blue Teams
-
--   Red Team -- attacker simulation
--   Blue Team -- defense monitoring
+<ul>
+  <li>Red Team - attacker simulation</li>
+  <li>Blue Team - defense monitoring</li>
+</ul>
 
 ## Continuous Monitoring
-
--   SIEM
--   Log analysis
--   Threat intelligence feeds
+<ul>
+  <li>SIEM</li>
+  <li>Log analysis</li>
+  <li>Threat intelligence feeds</li>
+</ul>
 
 ------------------------------------------------------------------------
 
@@ -279,10 +306,11 @@ Compliance verification.
 6.  Lessons Learned
 
 ## Logging Best Practices
-
--   Centralized logging
--   Time synchronization
--   Log retention policies
+<ul>
+  <li>Centralized logging</li>
+  <li>Time synchronization</li>
+  <li>Log retention policies</li>
+</ul>
 
 ## Digital Forensics
 
@@ -300,10 +328,11 @@ Recovery Time Objective
 Recovery Point Objective
 
 ### Disaster Recovery Sites
-
--   Cold site
--   Warm site
--   Hot site
+<ul>
+  <li>Cold site</li>
+  <li>Warm site</li>
+  <li>Hot site</li>
+</ul>
 
 ------------------------------------------------------------------------
 
@@ -333,10 +362,11 @@ Common risks: - Injection - Broken authentication - Sensitive data
 exposure - Security misconfiguration - Cross‑site scripting
 
 ## DevSecOps Principles
-
--   Automate security checks
--   Integrate into CI/CD
--   Continuous monitoring
+<ul>
+  <li>Automate security checks</li>
+  <li>Integrate into CI/CD</li>
+  <li>Continuous monitoring</li>
+</ul>
 
 ------------------------------------------------------------------------
 
@@ -344,36 +374,37 @@ exposure - Security misconfiguration - Cross‑site scripting
 
 ## Encryption Types
 
-  Type           Example
-  -------------- ----------------
-  Symmetric      AES
-  Asymmetric     RSA
-  Hash           SHA‑256
-  Key Exchange   Diffie‑Hellman
+| Type | Example |
+|-----|-----|
+| Symmetric | AES |
+| Asymmetric | RSA |
+| Hash | SHA‑256 |
+| Key Exchange | Diffie‑Hellman |
 
 ## PKI Components
-
--   Certificate Authority
--   Registration Authority
--   Certificates
--   Revocation Lists
+<ul>
+  <li>Certificate Authority</li>
+  <li>Registration Authority</li>
+  <li>Certificates</li>
+  <li>Revocation Lists</li>
+</ul>
 
 ------------------------------------------------------------------------
 
 # Networking Ports to Remember
 
-  Port   Protocol
-  ------ ----------
-  21     FTP
-  22     SSH
-  23     Telnet
-  25     SMTP
-  53     DNS
-  80     HTTP
-  110    POP3
-  143    IMAP
-  443    HTTPS
-  3389   RDP
+| Port | Protocol |
+|-----|-----|
+| 21 | FTP |
+| 22 | SSH |
+| 23 | Telnet |
+| 25 | SMTP |
+| 53 | DNS |
+| 80 | HTTP |
+| 110 | POP3 |
+| 143 | IMAP |
+| 443 | HTTPS |
+| 3389 | RDP |
 
 ------------------------------------------------------------------------
 
@@ -381,45 +412,49 @@ exposure - Security misconfiguration - Cross‑site scripting
 
 ## Backup Types
 
-  Type           Description
-  -------------- ---------------------------
-  Full           Complete backup
-  Incremental    Changes since last backup
-  Differential   Changes since last full
+| Type | Description |
+|-----|-----|
+| Full | Complete backup |
+| Incremental | Changes since last backup |
+| Differential | Changes since last full |
 
 ------------------------------------------------------------------------
 
 # Threat Categories
 
-  Threat Type          Example
-  -------------------- -----------------
-  Malware              Ransomware
-  Social Engineering   Phishing
-  Network Attacks      MITM
-  Insider Threat       Privilege abuse
+| Threat Type | Example |
+|-----|-----|
+| Malware | Ransomware |
+| Social Engineering | Phishing |
+| Network Attacks | MITM |
+| Insider Threat | Privilege abuse |
 
 ------------------------------------------------------------------------
 
 # Security Principles Summary
-
--   Least Privilege
--   Need to Know
--   Separation of Duties
--   Defense in Depth
--   Zero Trust
+<ul>
+  <li>Least Privilege</li>
+  <li>Need to Know</li>
+  <li>Separation of Duties</li>
+  <li>Defense in Depth</li>
+  <li>Zero Trust</li>
+</ul>
 
 ------------------------------------------------------------------------
 
 # Quick Exam Tips
-
--   CISSP tests **management thinking**, not just technical knowledge.
--   Choose the **best risk management answer**, not the most technical
-    one.
--   Look for answers involving:
-    -   Policy
-    -   Process
-    -   Risk reduction
-    -   Governance
+<ul>
+  <li>CISSP tests **management thinking**, not just technical knowledge.</li>
+  <li>Choose the **best risk management answer**, not the most technical one.</li>
+  <li>Look for answers involving:
+    <ul>
+      <li>Policy</li>
+      <li>Process</li>
+      <li>Risk reduction</li>
+      <li>Governance</li>
+    </ul>
+  </li>
+</ul>
 
 ------------------------------------------------------------------------
 
@@ -435,5 +470,3 @@ Secure SDLC\
 Network Security Architecture
 
 ------------------------------------------------------------------------
-
-*End of Cheat Sheet*
