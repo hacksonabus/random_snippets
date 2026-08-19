@@ -21,6 +21,8 @@ __Usage__
 ```
 go run osfingerprint.go
 ```
+---
+
 ### snow_catcher.py
 Simple game. Spawned from a random Discord conversation.
 Inspired by Kaboom! - https://en.wikipedia.org/wiki/Kaboom!_(video_game)
