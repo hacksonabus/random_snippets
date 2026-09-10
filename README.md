@@ -34,5 +34,24 @@ __Usage__
 python3 snow_catcher.py
 ```
 
- ### pve-governor.sh
- Minimal script to set the CPU Governor of a Proxmox server.
+### pve-governor.sh<br>
+Minimal script to set the CPU Governor of a Proxmox server.
+
+nano /usr/local/sbin/pve-governor.sh<br>
+chmod +x /usr/local/sbin/pve-governor.sh
+
+__Usage__
+```
+pve-governor.sh
+```
+
+### cpu_freq.sh<br>
+Display the current running CPU/Core frequencies.
+
+nano /usr/local/sbin/cpu_freq.sh<br>
+chmod +x /usr/local/sbin/cpu_freq.sh
+
+__Usage__
+```
+cpu_freq.sh
+```
