@@ -21,6 +21,7 @@ __Usage__
 ```
 go run osfingerprint.go
 ```
+
 ---
 
 ### snow_catcher.py
@@ -34,6 +35,8 @@ __Usage__
 python3 snow_catcher.py
 ```
 
+---
+
 ### pve-governor.sh<br>
 Minimal script to set the CPU Governor of a Proxmox server.
 
@@ -44,6 +47,9 @@ __Usage__
 ```
 pve-governor.sh
 ```
+
+---
+
 
 ### cpu_freq.sh<br>
 Display the current running CPU/Core frequencies.
